@@ -73,7 +73,7 @@ git rebase -i HEAD~2
 You should notice that when rebasing, the commits are listed in opposite order compared to how we see them when we use `git log`. Take a minute to look through all of the options the interactive tool offers you. Now let's look at the commit messages at the top of the tool. If we wanted to edit one of these commits, we would change the word `pick` to be `edit` for the appropriate commit. If we wanted to remove a commit, we would remove it from the list, and if we wanted to change their order, we would change their position in the list. Let's see what an edit looks like!
 
 ```bash
-edit eacf39d Create send file
+edit eacf39d Create second file
 pick 92ad0af Create third file and create fourth file
 ```
 
